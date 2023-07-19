@@ -3,7 +3,7 @@
     {
       "name": "positive",
       "setup": "",
-      "run": "python3 main.py",
+      "run": "python3 positivity.py",
       "input": "17",
       "output": "The number is positive.\n",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "negative",
       "setup": "",
-      "run": "python3 main.py",
+      "run": "python3 positivity.py",
       "input": "-28",
       "output": "The number is not positive.\n",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "zero",
       "setup": "",
-      "run": "python3 main.py",
+      "run": "python3 positivity.py",
       "input": "0",
       "output": "The number is not positive.\n",
       "comparison": "included",
