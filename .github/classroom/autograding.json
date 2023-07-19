@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "positive",
+      "setup": "",
+      "run": "python3 positivity.py",
+      "input": "17",
+      "output": "The number is positive.\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "negative",
+      "setup": "",
+      "run": "python3 positivity.py",
+      "input": "-28",
+      "output": "The number is not positive.\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "zero",
+      "setup": "",
+      "run": "python3 positivity.py",
+      "input": "0",
+      "output": "The number is not positive.\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
