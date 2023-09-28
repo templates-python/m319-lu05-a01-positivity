@@ -2,7 +2,7 @@ from positivity import main
 
 
 def test_positive(capsys, monkeypatch):
-    inputs = iter([3])
+    inputs = iter(['3'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main()
     captured = capsys.readouterr()
@@ -10,7 +10,7 @@ def test_positive(capsys, monkeypatch):
 
 
 def test_negative(capsys, monkeypatch):
-    inputs = iter([-7])
+    inputs = iter(['-7'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main()
     captured = capsys.readouterr()
@@ -18,7 +18,7 @@ def test_negative(capsys, monkeypatch):
 
 
 def test_zero(capsys, monkeypatch):
-    inputs = iter([0])
+    inputs = iter(['0'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main()
     captured = capsys.readouterr()
