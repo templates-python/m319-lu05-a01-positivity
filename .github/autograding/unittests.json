@@ -1,0 +1,20 @@
+[
+  {
+    "name": "positive",
+    "function": "positive",
+    "timeout": 1,
+    "points": 1
+  },
+  {
+    "name": "negative",
+    "function": "negative",
+    "timeout": 1,
+    "points": 1
+  },
+  {
+    "name": "zero",
+    "function": "zero",
+    "timeout": 1,
+    "points": 1
+  }
+]
