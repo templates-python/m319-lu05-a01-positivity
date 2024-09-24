@@ -1,19 +1,19 @@
 [
   {
-    "name": "positive",
+    "name": "test_positive",
     "function": "positive",
     "timeout": 1,
     "points": 1
   },
   {
-    "name": "negative",
-    "function": "negative",
+    "name": "test_negative",
+    "function": "test_negative",
     "timeout": 1,
     "points": 1
   },
   {
-    "name": "zero",
-    "function": "zero",
+    "name": "test_zero",
+    "function": "test_zero",
     "timeout": 1,
     "points": 1
   }
